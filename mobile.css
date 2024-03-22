@@ -1,0 +1,86 @@
+body{
+    background-color: aquamarine;
+}
+
+.divh{
+  
+    display: flex;
+    background-color: rgb(77, 111, 235);
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+.divh p{
+   
+    background-color: chartreuse;
+    padding: 8px;
+    font-size: 15px;
+    width: 60px;
+    font-weight: bold;
+    color: rgb(233, 96, 96);
+    border-radius: 5px;
+
+}
+
+.maindiv{
+    display: grid;
+    grid-template-columns: auto;
+    padding: 50px;
+    gap: 50px;
+   
+}
+
+.div1{
+  
+    width: 200px;
+    height: 380px;
+    background-color: rgb(235, 246, 255);
+    border-radius: 15px;
+    padding: 20px;
+    
+}
+
+img{
+    width: 60%;
+    margin-left: 20%;
+    height: 150px; 
+   
+}
+
+.div1 p{
+    margin-left: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.div1 button{
+
+    background-color: blue;
+    width: 60%;
+    color: aliceblue;
+    padding: 6px;
+    margin-left: 20%;
+    margin-top: 15px;
+    border-radius: 6px;
+    font-size: 20px;
+    display: inline;
+}
+
+.div1 input{
+    width: 40px;
+    height: 30px;
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 20px;
+}
+

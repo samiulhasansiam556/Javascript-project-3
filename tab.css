@@ -1,0 +1,7 @@
+
+.maindiv{
+    display: grid;
+    grid-template-columns: auto auto ;
+    padding: 50px;
+    gap: 30px;
+}

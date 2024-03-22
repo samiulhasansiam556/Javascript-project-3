@@ -1,0 +1,124 @@
+
+*{
+  
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: aquamarine;
+}
+
+
+.divh{
+  
+    display: flex;
+    background-color: rgb(77, 111, 235);
+    width: 60%;
+    margin-left: 17%;
+    margin-top: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border-radius: 8px;
+
+}
+
+.divh h2{
+    color: wheat;
+}
+
+.divh p{
+   
+    background-color: chartreuse;
+    padding: 14px;
+    font-size: 20px;
+    width: 60px;
+    font-weight: bold;
+    color: rgb(233, 96, 96);
+    border-radius: 5px;
+
+}
+
+.div1{
+  
+    width: 420px;
+    height: 450px;
+    background-color: rgb(235, 246, 255);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 2px 6px 8px black;
+    margin-top: 50PX;
+}
+
+img{
+    width: 60%;
+    margin-left: 20%;
+    height: 220px;
+   
+}
+
+.div1 p{
+    margin-left: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.div1 h3 {
+    margin-left: 40%;
+   
+}
+
+.div1 h3 p{
+    display: inline-block;
+
+    
+}
+
+.div1 button{
+
+    background-color: blue;
+    width: 60%;
+    color: aliceblue;
+    padding: 6px;
+    margin-left: 20%;
+    margin-top: 15px;
+    border-radius: 6px;
+    font-size: 20px;
+    box-shadow: 2px 5px 7px red;
+}
+
+.div1 button:hover{
+
+    background-color: rgb(0, 0, 0);
+    width: 60%;
+    color: rgb(255, 255, 255);
+    padding: 6px;
+    margin-left: 20%;
+    margin-top: 15px;
+    border-radius: 6px;
+    font-size: 20px;
+    box-shadow: 2px 5px 7px rgb(111, 242, 64);
+}
+
+.div1 input{
+    width: 70px;
+    height: 30px;
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.i1{
+    margin-left: 130px;
+}
+
+.maindiv{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: baseline;
+    gap: 40px;
+   
+    
+}
